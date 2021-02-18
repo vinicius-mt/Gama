@@ -4,6 +4,8 @@ import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
 
+//apagar essa linha
+
 @Getter
 @Setter
 public class Aluno {
