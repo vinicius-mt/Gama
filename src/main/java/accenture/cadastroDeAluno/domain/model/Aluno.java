@@ -10,24 +10,18 @@ public class Aluno {
 
     String nome;
     int idade;
-    String dataNascimento;
-    String matricula;
-    String rg;
-    String cpf;
-    String nomeMae;
-    String nomePai;
-    String dataMatricula;
+    String address;
+    String uf;
+    String cep;
     String telefone;
-    String turma;
+    String matricula;
 
     public Aluno(){
 
     }
-    public Aluno(String nome, int idade, String dataMatricula, String turma, String matricula ) {
+    public Aluno(String nome, int idade, String matricula ) {
         this.nome = nome;
         this.idade = idade;
-        this.dataMatricula = dataMatricula;
-        this.turma = turma;
         this.matricula=matricula;
     }
 
