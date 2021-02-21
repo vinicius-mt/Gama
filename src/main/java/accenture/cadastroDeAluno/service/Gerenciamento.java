@@ -29,24 +29,24 @@ public class Gerenciamento{
         return (nota1 + nota2 + notaApresentacao + notaTrabalho) / 4 ;
     }
 
-    public String verificarAprovacao(Aluno aluno){
-        String conceito = "reprovado";
-        double media = calcularMedia(aluno.prova1, aluno.prova2, aluno.notaTrabalho, aluno.notaApresentacao);
-        if(media >= 90){
-            conceito = "A";
-        }
-        if (80 <= media && media < 90 ){
-            conceito = "B";
-        }
-        if (70 <= media && media < 80 ){
-            conceito = "C";
-        }
-        if (60 <= media && media < 70 ){
-            conceito = "D";
-        }
-
-        return aluno.nome + " está " + conceito + ".";
-    }
+//    public String verificarAprovacao(Aluno aluno){
+//        String conceito = "reprovado";
+//        double media = calcularMedia(aluno.prova1, aluno.prova2, aluno.notaTrabalho, aluno.notaApresentacao);
+//        if(media >= 90){
+//            conceito = "A";
+//        }
+//        if (80 <= media && media < 90 ){
+//            conceito = "B";
+//        }
+//        if (70 <= media && media < 80 ){
+//            conceito = "C";
+//        }
+//        if (60 <= media && media < 70 ){
+//            conceito = "D";
+//        }
+//
+//        return aluno.nome + " está " + conceito + ".";
+//    }
 
 
 }
