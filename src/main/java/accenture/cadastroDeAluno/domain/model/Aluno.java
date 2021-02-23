@@ -19,7 +19,64 @@ public class Aluno {
     public Aluno(){
 
     }
-//    public Aluno(String nome, int idade, String matricula ) {
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getUf() {
+        return uf;
+    }
+
+    public String getCep() {
+        return cep;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setUf(String uf) {
+        this.uf = uf;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    //    public Aluno(String nome, int idade, String matricula ) {
 //        this.nome = nome;
 //        this.idade = idade;
 //        this.matricula=matricula;
