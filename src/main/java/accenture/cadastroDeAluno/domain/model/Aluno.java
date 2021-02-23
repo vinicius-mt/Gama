@@ -7,11 +7,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Aluno {
-
+    int id;
     String nome;
     int idade;
     String address;
-    String uf;
+    String estado;
     String cep;
     String telefone;
     String matricula;
@@ -32,8 +32,8 @@ public class Aluno {
         return address;
     }
 
-    public String getUf() {
-        return uf;
+    public String getEstado() {
+        return estado;
     }
 
     public String getCep() {
@@ -46,6 +46,9 @@ public class Aluno {
 
     public String getMatricula() {
         return matricula;
+    }
+    public int getId(int id){
+        return id;
     }
 
     public void setNome(String nome) {
@@ -60,8 +63,8 @@ public class Aluno {
         this.address = address;
     }
 
-    public void setUf(String uf) {
-        this.uf = uf;
+    public void setEstado(String Estado) {
+        this.estado = estado;
     }
 
     public void setCep(String cep) {
@@ -74,6 +77,10 @@ public class Aluno {
 
     public void setMatricula(String matricula) {
         this.matricula = matricula;
+    }
+
+    public void setId(int id){
+        this.id=id;
     }
 
     //    public Aluno(String nome, int idade, String matricula ) {
