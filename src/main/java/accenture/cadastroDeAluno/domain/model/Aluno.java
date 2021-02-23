@@ -19,11 +19,11 @@ public class Aluno {
     public Aluno(){
 
     }
-    public Aluno(String nome, int idade, String matricula ) {
-        this.nome = nome;
-        this.idade = idade;
-        this.matricula=matricula;
-    }
+//    public Aluno(String nome, int idade, String matricula ) {
+//        this.nome = nome;
+//        this.idade = idade;
+//        this.matricula=matricula;
+//    }
 
 //    @NonNull
 //    public String nome;
