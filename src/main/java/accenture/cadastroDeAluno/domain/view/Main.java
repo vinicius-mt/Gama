@@ -1,9 +1,8 @@
-package accenture.cadastroDeAluno.domain.model;
+package accenture.cadastroDeAluno.domain.view;
 
-import accenture.cadastroDeAluno.domain.repository.BancoDeDados;
+import accenture.cadastroDeAluno.domain.controll.AlunoDAO;
+import accenture.cadastroDeAluno.domain.model.Aluno;
 
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.List;
 
 public class Main {
@@ -13,7 +12,7 @@ public class Main {
         List<Aluno> alunos= alunoDAO.list();
         alunos.stream().forEach(System.out::println);
         Aluno alunoParaConsulta = alunoDAO.getById(1);
-        //System.out.println(alunoParaConsulta);
+        System.out.println(alunoParaConsulta);
 
         Aluno alunoParaInsercao =new Aluno(
                 "Matheus",
@@ -25,7 +24,7 @@ public class Main {
                 "1801409"
         );
 
-        //alunoDAO.create(alunoParaInsercao)
+        //alunoDAO.create(alunoParaInsercao);
 
         //alunoDAO.delete(1);
 
