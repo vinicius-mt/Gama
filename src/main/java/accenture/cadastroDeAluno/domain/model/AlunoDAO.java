@@ -24,10 +24,10 @@ public class AlunoDAO {
                 String nome = rs.getString("nome");
                 int idade = rs.getInt("idade");
                 String estado = rs.getString("estado");
-                String cep= rs.getString("cep");
-                String telefone=rs.getString("telefone");
-                String address=rs.getString("address");
-                String matricula=rs.getString("matricula");
+                String cep = rs.getString("cep");
+                String telefone = rs.getString("telefone");
+                String address = rs.getString("address");
+                String matricula = rs.getString("matricula");
 
                 alunos.add(new Aluno(
                         id,
@@ -37,7 +37,7 @@ public class AlunoDAO {
                         cep,
                         telefone,
                         address,
-                        matricula,
+                        matricula
                 ));
             }
         } catch (SQLException e) {
