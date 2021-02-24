@@ -1,5 +1,6 @@
-package accenture.cadastroDeAluno.domain.model;
+package accenture.cadastroDeAluno.domain.controll;
 
+import accenture.cadastroDeAluno.domain.model.Aluno;
 import accenture.cadastroDeAluno.domain.repository.BancoDeDados;
 
 import java.sql.Connection;
