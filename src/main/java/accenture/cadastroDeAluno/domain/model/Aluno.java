@@ -20,6 +20,27 @@ public class Aluno {
 
     }
 
+    public Aluno(int id, String nome, int idade, String address, String estado, String cep, String telefone, String matricula) {
+        this.id = id;
+        this.nome = nome;
+        this.idade = idade;
+        this.address = address;
+        this.estado = estado;
+        this.cep = cep;
+        this.telefone = telefone;
+        this.matricula = matricula;
+    }
+
+    public Aluno(String nome, int idade, String address, String estado, String cep, String telefone, String matricula) {
+        this.nome = nome;
+        this.idade = idade;
+        this.address = address;
+        this.estado = estado;
+        this.cep = cep;
+        this.telefone = telefone;
+        this.matricula = matricula;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -83,6 +104,21 @@ public class Aluno {
         this.id=id;
     }
 
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", address='" + address + '\'' +
+                ", estado='" + estado + '\'' +
+                ", cep='" + cep + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", matricula='" + matricula + '\'' +
+                '}';
+    }
+
+
     //    public Aluno(String nome, int idade, String matricula ) {
 //        this.nome = nome;
 //        this.idade = idade;
@@ -106,8 +142,6 @@ public class Aluno {
 //    public Curso curso;
 
 
-    public Aluno(String nome) {
-        this.nome = nome;
-    }
+
 
 }
